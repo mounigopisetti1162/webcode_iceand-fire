@@ -1,0 +1,121 @@
+/* body styling */
+body {
+    background-image: url('https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+/* heading row */
+#first {
+    text-align: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.fuvM3t3YN1BygbgfvYL96AHaEK&pid=Api&rs=1&c=1&qlt=95&w=217&h=122");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+#ice {
+    color: rgb(63, 128, 202);
+}
+
+#fire {
+    color: rgb(223, 75, 17);
+}
+
+img {
+    height: 80px;
+    width: 100px;
+}
+
+
+/* loading button */
+#loadingBtn {
+    color: black;
+}
+
+
+/* search and page number bar */
+#searchbar {
+    font-weight: bold;
+}
+
+#pageNum {
+    border: 3px solid black;
+    padding: 2px 15px;
+    color: red;
+}
+#pageNumDiv{
+    color: black;
+    text-align: end;
+    font-weight: bold;
+}
+
+/* actions button div */
+#actionDiv {
+    margin: 10% 0 0;
+    padding: 5px;
+}
+
+
+/* books div styling*/
+#booksDiv {
+    background-color: #DEF5E5;
+}
+
+.bookList {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.bookCard {
+    text-align: center;
+    width: 45%;
+    padding: 2%;
+    background-color: #8EC3B0;
+    margin: 1%;
+    box-shadow: 10px 10px 5px black;
+    background-image: url('https://images.unsplash.com/photo-1528459061998-56fd57ad86e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Ym9vayUyMGNvdmVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* book details style */
+#bookName {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.bookCard b {
+    color: darkgray;
+}
+
+
+/* media queries */
+@media screen and (max-width:991px) {
+    .bookCard {
+        width: 90%;
+        padding: 2%;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    img {
+        height: 150px;
+        width: 200px;
+    }
+}
